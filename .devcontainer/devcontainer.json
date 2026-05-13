@@ -1,0 +1,21 @@
+{
+  "name": "learn-supabase",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": ["--network=host", "--privileged"],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "moby": false
+    }
+  },
+  "forwardPorts": [4200, 54321, 54322, 54323, 54324],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
