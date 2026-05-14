@@ -6,7 +6,7 @@ Supabase doc: https://supabase.com/docs
 
 ## Teck stack
 - DB --> Supabase
-- Front --> Vite
+- Front --> Angular (Vite)
 
 
 ## LearnSupabaseTodoapp

@@ -9,8 +9,8 @@ Each step teaches one Supabase pillar. Complete them in order — they build on 
 **What to build:** basic todo CRUD (list, add, toggle complete, delete)
 
 **Tasks:**
-- [ ] Install `@supabase/supabase-js`
-- [ ] Create the Supabase client (env vars for URL + anon key)
+- [X] Install `@supabase/supabase-js`
+- [X] Create the Supabase client (env vars for URL + anon key)
 - [ ] Write first migration: `todos` table (`id`, `title`, `is_complete`, `created_at`)
 - [ ] Add seed data in `supabase/seed.sql`
 - [ ] Build Angular todo list component (display todos)
